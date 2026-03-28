@@ -17,3 +17,9 @@ npm run dev
 4. Push to the `main` branch or run the `Deploy GitHub Pages` workflow manually.
 
 The workflow builds the app and publishes the `dist` folder to GitHub Pages automatically.
+
+### Troubleshooting blank page / 404
+
+- Make sure Pages source is **GitHub Actions** (not branch deploy of raw source files).
+- Wait for the latest workflow run to complete successfully.
+- Hard refresh browser (`Cmd+Shift+R`) after deployment.
